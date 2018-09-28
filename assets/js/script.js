@@ -32,13 +32,25 @@ $(document).ready(function() {
 
     //Menu Top
 
+    // $(window).bind('scroll', function () {
+    //     if ($(window).scrollTop() > 900) {
+    //         $('.menu-bar').addClass('mz-menufix');
+    //     } else {
+    //         $('.menu-bar').removeClass('mz-menufix');
+    //     }
+    // });
+
+
     $(window).bind('scroll', function () {
-        if ($(window).scrollTop() > 900) {
-            $('.menu-bar').addClass('mz-menufix');
+        if ($(window).scrollTop() > 100) {
+            $('header .menu-bar').addClass('mz-menufix');
         } else {
             $('.menu-bar').removeClass('mz-menufix');
         }
     });
+
+
+
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 340) {
