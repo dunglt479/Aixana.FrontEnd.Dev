@@ -34,6 +34,12 @@ $(document).ready(function() {
         vertical: true,
     });
 
+    /*show form add projects*/
+    $(".btn-add-projects").click(function(){
+        $(".add-projects").slideDown();
+        $(this).hide();
+    });
+
     //scroll menu link======
     //Scroll
 
@@ -49,7 +55,6 @@ $(document).ready(function() {
     });
 
     //Menu Top
-
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > 900) {
             $('.menu-bar').addClass('mz-menufix');
@@ -57,9 +62,6 @@ $(document).ready(function() {
             $('.menu-bar').removeClass('mz-menufix');
         }
     });
-
-
-
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 340) {

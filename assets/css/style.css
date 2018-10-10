@@ -258,6 +258,13 @@ label.error {
   background: url("../images/icon/icon-star.png");
   float: left;
 }
+.icon-user-edit {
+  display: block;
+  width: 20px;
+  height: 18px;
+  background: url("../images/icon/icon-user-edit.png");
+  float: left;
+}
 .icon-congtrinh,
 .icon-setting,
 .icon-infor,
@@ -401,6 +408,12 @@ label.error {
   color: #333;
   background-color: transparent;
   border-color: #adadad;
+}
+.btn-update {
+  color: #303133;
+}
+.btn-update i {
+  margin-right: 5px;
 }
 /*END BUTTON STYLE----*/
 /* COMPONENTS: FORM*/
@@ -2451,6 +2464,166 @@ section.camnang .slick-dots li {
   color: #19b5a0;
 }
 /*END PAGE LOGIN & REGISTER*/
+/*Page Profile*/
+/*Page profile*/
+.profile-page .banner-investment .update-banner {
+  position: absolute;
+  top: 30px;
+  z-index: 3;
+  left: 0;
+  display: none;
+}
+.profile-page .banner-investment:hover .update-banner {
+  display: block;
+}
+.profile-page .content-tabs {
+  margin-top: 0;
+  position: static;
+}
+.profile-page .content-tabs .nav-tabs {
+  position: absolute;
+  top: 0;
+  left: 193px;
+  width: 83%;
+  padding-left: 20px;
+}
+.profile-page .content-tabs .nav-tabs > li {
+  border-right: 1px solid #b7b7b7;
+  padding: 0 20px;
+  margin-right: 0;
+}
+.profile-page .content-tabs .nav-tabs > li:first-child {
+  padding-left: 100px;
+}
+.profile-page .content-tabs .nav-tabs > li > a {
+  padding: 6px 0;
+}
+.profile-page .content-tabs .tab-pane .block {
+  border-top: none;
+}
+.profile-page .content-tabs .form-group {
+  display: inline-block;
+  width: 100%;
+}
+.profile-page .content-tabs .wp_button {
+  margin: 30px 0 20px;
+  border-bottom: 1px solid #b7b7b7;
+  padding-bottom: 30px;
+}
+.profile-page .content-tabs .wp_button .btn {
+  margin: 0 5px;
+}
+.profile-page .content-tabs .wp_button .btn i {
+  margin-right: 5px;
+}
+.profile-page .content-tabs .form-register-investment {
+  position: static;
+}
+.profile-page .content-tabs .form-register-investment .wp_button {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.profile-page .add-projects {
+  display: none;
+}
+.profile-page .list-projects .one-project .img-wrapper {
+  position: relative;
+}
+.profile-page .list-projects .one-project .img-wrapper .update {
+  display: none;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+.profile-page .list-projects .one-project:hover .update {
+  display: block;
+}
+.btn-loadfile input[type=file] {
+  position: absolute;
+  top: 0;
+  height: 35px;
+  width: 100%;
+  cursor: pointer;
+  left: 0;
+}
+.btn-loadfile {
+  display: inline-block;
+  padding: 5px 22px;
+  border: 1px solid #19b5a0;
+  border-radius: 3px;
+  position: relative;
+  text-decoration: none;
+}
+.part_create {
+  display: inline-block;
+  width: 100%;
+}
+.part_create .form-group {
+  display: inline-block;
+  width: 100%;
+}
+.part_create ul {
+  padding-left: 0;
+  line-height: 25px;
+  margin-top: 10px;
+}
+.part_create .wrap_images {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.part_create .col-md-4,
+.part_create .left-load {
+  border-right: 1px solid #b7b7b7;
+}
+.part_create .col-md-4 .image-upload .wrap-bg img,
+.part_create .left-load .image-upload .wrap-bg img {
+  height: auto;
+  width: auto;
+}
+.part_create .left {
+  display: flex;
+}
+.part_create .right {
+  padding-left: 50px;
+}
+.part_create .image-upload .background-img {
+  background: rgba(95, 93, 93, 0.16);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 140px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+.part_create .image-upload .background-img img {
+  position: static;
+}
+.part_create .infor-img {
+  display: inline-block;
+  width: 155px;
+  margin-left: 30px;
+}
+.part_create .infor-img input {
+  margin-bottom: 10px;
+}
+/*end page profile*/
 /*----RESPONSIVE----*/
 /*screen 1200px*/
 @media only screen and (max-width: 1200px) {
