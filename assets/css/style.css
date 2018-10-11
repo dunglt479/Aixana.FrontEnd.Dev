@@ -2624,6 +2624,15 @@ section.camnang .slick-dots li {
   margin-bottom: 10px;
 }
 /*end page profile*/
+/*PAGE POLICY*/
+.content-policy {
+  margin-bottom: 60px;
+  padding-left: 15px;
+}
+.content-policy .title-content {
+  font-size: 24px;
+}
+/*END PAGE POLICY*/
 /*----RESPONSIVE----*/
 /*screen 1200px*/
 @media only screen and (max-width: 1200px) {
